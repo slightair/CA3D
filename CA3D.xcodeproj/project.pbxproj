@@ -85,9 +85,9 @@
 			children = (
 				57EAAF351553A9A300B9CE24 /* CA3DAppDelegate.h */,
 				57EAAF361553A9A300B9CE24 /* CA3DAppDelegate.m */,
-				57EAAF2D1553A9A300B9CE24 /* Supporting Files */,
 				57EAAF3D1553AA8D00B9CE24 /* CA3DWorldView.h */,
 				57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */,
+				57EAAF2D1553A9A300B9CE24 /* Supporting Files */,
 			);
 			path = CA3D;
 			sourceTree = "<group>";
