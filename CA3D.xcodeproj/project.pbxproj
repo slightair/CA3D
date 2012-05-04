@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57EAAF271553A9A300B9CE24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF261553A9A300B9CE24 /* UIKit.framework */; };
+		57EAAF291553A9A300B9CE24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF281553A9A300B9CE24 /* Foundation.framework */; };
+		57EAAF2B1553A9A300B9CE24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF2A1553A9A300B9CE24 /* CoreGraphics.framework */; };
+		57EAAF311553A9A300B9CE24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57EAAF2F1553A9A300B9CE24 /* InfoPlist.strings */; };
+		57EAAF331553A9A300B9CE24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAAF321553A9A300B9CE24 /* main.m */; };
+		57EAAF371553A9A300B9CE24 /* CA3DAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAAF361553A9A300B9CE24 /* CA3DAppDelegate.m */; };
+		57EAAF3F1553AA8D00B9CE24 /* CA3DWorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */; };
+		57EAAF421553ABDE00B9CE24 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF401553ABDE00B9CE24 /* OpenGLES.framework */; };
+		57EAAF431553ABDE00B9CE24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF411553ABDE00B9CE24 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57EAAF221553A9A300B9CE24 /* CA3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CA3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57EAAF261553A9A300B9CE24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57EAAF281553A9A300B9CE24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57EAAF2A1553A9A300B9CE24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57EAAF2E1553A9A300B9CE24 /* CA3D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CA3D-Info.plist"; sourceTree = "<group>"; };
+		57EAAF301553A9A300B9CE24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57EAAF321553A9A300B9CE24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57EAAF341553A9A300B9CE24 /* CA3D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CA3D-Prefix.pch"; sourceTree = "<group>"; };
+		57EAAF351553A9A300B9CE24 /* CA3DAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CA3DAppDelegate.h; sourceTree = "<group>"; };
+		57EAAF361553A9A300B9CE24 /* CA3DAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CA3DAppDelegate.m; sourceTree = "<group>"; };
+		57EAAF3D1553AA8D00B9CE24 /* CA3DWorldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CA3DWorldView.h; sourceTree = "<group>"; };
+		57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CA3DWorldView.m; sourceTree = "<group>"; };
+		57EAAF401553ABDE00B9CE24 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		57EAAF411553ABDE00B9CE24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57EAAF1F1553A9A300B9CE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EAAF421553ABDE00B9CE24 /* OpenGLES.framework in Frameworks */,
+				57EAAF431553ABDE00B9CE24 /* QuartzCore.framework in Frameworks */,
+				57EAAF271553A9A300B9CE24 /* UIKit.framework in Frameworks */,
+				57EAAF291553A9A300B9CE24 /* Foundation.framework in Frameworks */,
+				57EAAF2B1553A9A300B9CE24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57EAAF171553A9A300B9CE24 = {
+			isa = PBXGroup;
+			children = (
+				57EAAF2C1553A9A300B9CE24 /* CA3D */,
+				57EAAF251553A9A300B9CE24 /* Frameworks */,
+				57EAAF231553A9A300B9CE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57EAAF231553A9A300B9CE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57EAAF221553A9A300B9CE24 /* CA3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57EAAF251553A9A300B9CE24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57EAAF401553ABDE00B9CE24 /* OpenGLES.framework */,
+				57EAAF411553ABDE00B9CE24 /* QuartzCore.framework */,
+				57EAAF261553A9A300B9CE24 /* UIKit.framework */,
+				57EAAF281553A9A300B9CE24 /* Foundation.framework */,
+				57EAAF2A1553A9A300B9CE24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57EAAF2C1553A9A300B9CE24 /* CA3D */ = {
+			isa = PBXGroup;
+			children = (
+				57EAAF351553A9A300B9CE24 /* CA3DAppDelegate.h */,
+				57EAAF361553A9A300B9CE24 /* CA3DAppDelegate.m */,
+				57EAAF2D1553A9A300B9CE24 /* Supporting Files */,
+				57EAAF3D1553AA8D00B9CE24 /* CA3DWorldView.h */,
+				57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */,
+			);
+			path = CA3D;
+			sourceTree = "<group>";
+		};
+		57EAAF2D1553A9A300B9CE24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57EAAF2E1553A9A300B9CE24 /* CA3D-Info.plist */,
+				57EAAF2F1553A9A300B9CE24 /* InfoPlist.strings */,
+				57EAAF321553A9A300B9CE24 /* main.m */,
+				57EAAF341553A9A300B9CE24 /* CA3D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57EAAF211553A9A300B9CE24 /* CA3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57EAAF3A1553A9A300B9CE24 /* Build configuration list for PBXNativeTarget "CA3D" */;
+			buildPhases = (
+				57EAAF1E1553A9A300B9CE24 /* Sources */,
+				57EAAF1F1553A9A300B9CE24 /* Frameworks */,
+				57EAAF201553A9A300B9CE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CA3D;
+			productName = CA3D;
+			productReference = 57EAAF221553A9A300B9CE24 /* CA3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57EAAF191553A9A300B9CE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CA3D;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 57EAAF1C1553A9A300B9CE24 /* Build configuration list for PBXProject "CA3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57EAAF171553A9A300B9CE24;
+			productRefGroup = 57EAAF231553A9A300B9CE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57EAAF211553A9A300B9CE24 /* CA3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57EAAF201553A9A300B9CE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EAAF311553A9A300B9CE24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57EAAF1E1553A9A300B9CE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EAAF331553A9A300B9CE24 /* main.m in Sources */,
+				57EAAF371553A9A300B9CE24 /* CA3DAppDelegate.m in Sources */,
+				57EAAF3F1553AA8D00B9CE24 /* CA3DWorldView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57EAAF2F1553A9A300B9CE24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57EAAF301553A9A300B9CE24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57EAAF381553A9A300B9CE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57EAAF391553A9A300B9CE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57EAAF3B1553A9A300B9CE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CA3D/CA3D-Prefix.pch";
+				INFOPLIST_FILE = "CA3D/CA3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57EAAF3C1553A9A300B9CE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CA3D/CA3D-Prefix.pch";
+				INFOPLIST_FILE = "CA3D/CA3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57EAAF1C1553A9A300B9CE24 /* Build configuration list for PBXProject "CA3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EAAF381553A9A300B9CE24 /* Debug */,
+				57EAAF391553A9A300B9CE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57EAAF3A1553A9A300B9CE24 /* Build configuration list for PBXNativeTarget "CA3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EAAF3B1553A9A300B9CE24 /* Debug */,
+				57EAAF3C1553A9A300B9CE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57EAAF191553A9A300B9CE24 /* Project object */;
+}
