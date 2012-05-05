@@ -18,6 +18,8 @@
 		57EAAF431553ABDE00B9CE24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF411553ABDE00B9CE24 /* QuartzCore.framework */; };
 		57EAAF461553B48200B9CE24 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EAAF441553B48200B9CE24 /* MainStoryboard_iPhone.storyboard */; };
 		57EAAF4E1553B83900B9CE24 /* CA3DWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAAF4D1553B83900B9CE24 /* CA3DWorldViewController.m */; };
+		57EAAF501554F3C300B9CE24 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57EAAF4F1554F3C300B9CE24 /* SimpleVertex.glsl */; };
+		57EAAF521554F59A00B9CE24 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57EAAF511554F59A00B9CE24 /* SimpleFragment.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		57EAAF451553B48200B9CE24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = CA3D/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		57EAAF4C1553B83900B9CE24 /* CA3DWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CA3DWorldViewController.h; sourceTree = "<group>"; };
 		57EAAF4D1553B83900B9CE24 /* CA3DWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CA3DWorldViewController.m; sourceTree = "<group>"; };
+		57EAAF4F1554F3C300B9CE24 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		57EAAF511554F59A00B9CE24 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				57EAAF2D1553A9A300B9CE24 /* Supporting Files */,
 				57EAAF4C1553B83900B9CE24 /* CA3DWorldViewController.h */,
 				57EAAF4D1553B83900B9CE24 /* CA3DWorldViewController.m */,
+				57EAAF4F1554F3C300B9CE24 /* SimpleVertex.glsl */,
+				57EAAF511554F59A00B9CE24 /* SimpleFragment.glsl */,
 			);
 			path = CA3D;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			files = (
 				57EAAF311553A9A300B9CE24 /* InfoPlist.strings in Resources */,
 				57EAAF461553B48200B9CE24 /* MainStoryboard_iPhone.storyboard in Resources */,
+				57EAAF501554F3C300B9CE24 /* SimpleVertex.glsl in Resources */,
+				57EAAF521554F59A00B9CE24 /* SimpleFragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
