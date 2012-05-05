@@ -16,6 +16,8 @@
 		57EAAF3F1553AA8D00B9CE24 /* CA3DWorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */; };
 		57EAAF421553ABDE00B9CE24 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF401553ABDE00B9CE24 /* OpenGLES.framework */; };
 		57EAAF431553ABDE00B9CE24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EAAF411553ABDE00B9CE24 /* QuartzCore.framework */; };
+		57EAAF461553B48200B9CE24 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EAAF441553B48200B9CE24 /* MainStoryboard_iPhone.storyboard */; };
+		57EAAF4E1553B83900B9CE24 /* CA3DWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAAF4D1553B83900B9CE24 /* CA3DWorldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CA3DWorldView.m; sourceTree = "<group>"; };
 		57EAAF401553ABDE00B9CE24 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		57EAAF411553ABDE00B9CE24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57EAAF451553B48200B9CE24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = CA3D/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		57EAAF4C1553B83900B9CE24 /* CA3DWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CA3DWorldViewController.h; sourceTree = "<group>"; };
+		57EAAF4D1553B83900B9CE24 /* CA3DWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CA3DWorldViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,8 @@
 				57EAAF3D1553AA8D00B9CE24 /* CA3DWorldView.h */,
 				57EAAF3E1553AA8D00B9CE24 /* CA3DWorldView.m */,
 				57EAAF2D1553A9A300B9CE24 /* Supporting Files */,
+				57EAAF4C1553B83900B9CE24 /* CA3DWorldViewController.h */,
+				57EAAF4D1553B83900B9CE24 /* CA3DWorldViewController.m */,
 			);
 			path = CA3D;
 			sourceTree = "<group>";
@@ -95,6 +102,7 @@
 		57EAAF2D1553A9A300B9CE24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57EAAF441553B48200B9CE24 /* MainStoryboard_iPhone.storyboard */,
 				57EAAF2E1553A9A300B9CE24 /* CA3D-Info.plist */,
 				57EAAF2F1553A9A300B9CE24 /* InfoPlist.strings */,
 				57EAAF321553A9A300B9CE24 /* main.m */,
@@ -155,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57EAAF311553A9A300B9CE24 /* InfoPlist.strings in Resources */,
+				57EAAF461553B48200B9CE24 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 				57EAAF331553A9A300B9CE24 /* main.m in Sources */,
 				57EAAF371553A9A300B9CE24 /* CA3DAppDelegate.m in Sources */,
 				57EAAF3F1553AA8D00B9CE24 /* CA3DWorldView.m in Sources */,
+				57EAAF4E1553B83900B9CE24 /* CA3DWorldViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +190,15 @@
 				57EAAF301553A9A300B9CE24 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57EAAF441553B48200B9CE24 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57EAAF451553B48200B9CE24 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
